@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/navigation/breadcrumb";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Over Ons | StayCool Airco Geleen'
+  title: 'Over Ons | StayCool Airco Geleen',
   description: 'Maak kennis met StayCool Airco - uw lokale specialist voor airconditioning installatie, onderhoud en reparatie in Maastricht en omgeving. Ontdek onze expertise en persoonlijke aanpak.',
 };
 
