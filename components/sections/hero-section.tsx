@@ -21,13 +21,13 @@ export function HeroSection() {
               className="text-4xl font-bold tracking-tight sm:text-6xl"
               tabIndex={-1}
             >
-              StayCool Airco Maastricht
+              StayCool Airco Geleen
             </h1>
             <p className="mt-2 text-3xl font-semibold text-blue-100">
               Professionele Airco Installatie
             </p>
             <p className="mt-6 text-xl text-blue-100">
-              Geniet van optimaal klimaatcomfort het hele jaar door in Maastricht en omgeving. 
+              Geniet van optimaal klimaatcomfort het hele jaar door in Geleen en omgeving. 
               Vakkundige installatie door gecertificeerde monteurs met 5 jaar garantie.
             </p>
             <div className="mt-6">
