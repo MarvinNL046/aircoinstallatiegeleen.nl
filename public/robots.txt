@@ -7,9 +7,9 @@ Disallow: /_next/
 Disallow: /private/
 
 # Host
-Host: https://aircoinstallatie-maastricht.nl
+Host: https://aircoinstallatiegeleen.nl
 
 # Sitemaps
-Sitemap: https://aircoinstallatie-maastricht.nl/sitemap.xml
-Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-locations.xml
-Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-services.xml
+Sitemap: https://aircoinstallatiegeleen.nl/sitemap.xml
+Sitemap: https://aircoinstallatiegeleen.nl/sitemap-locations.xml
+Sitemap: https://aircoinstallatiegeleen.nl/sitemap-services.xml
