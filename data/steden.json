@@ -1,0 +1,423 @@
+{
+  "limburg": [
+    {
+      "municipality": "Beek",
+      "places": [
+        "Beek",
+        "Spaubeek",
+        "Genhout",
+        "Neerbeek",
+        "Geverik",
+        "Kelmond",
+        "Catsop"
+      ]
+    },
+    {
+      "municipality": "Beekdaelen",
+      "places": [
+        "Schinveld",
+        "Merkelbeek",
+        "Bingelrade",
+        "Jabeek",
+        "Amstenrade",
+        "Oirsbeek",
+        "Doenrade",
+        "Puth",
+        "Wijnandsrade",
+        "Nuth",
+        "Hulsberg",
+        "Vaesrade",
+        "Aalbeek",
+        "Laar",
+        "Swier",
+        "Kathagen"
+      ]
+    },
+    {
+      "municipality": "Beesel",
+      "places": [
+        "Beesel",
+        "Reuver",
+        "Offenbeek"
+      ]
+    },
+    {
+      "municipality": "Bergen",
+      "places": [
+        "Bergen",
+        "Afferden",
+        "Siebengewald",
+        "Well",
+        "Wellerlooi",
+        "Nieuw Bergen",
+        "Heukelom"
+      ]
+    },
+    {
+      "municipality": "Brunssum",
+      "places": [
+        "Brunssum",
+        "Treebeek",
+        "Langeberg",
+        "De Kling"
+      ]
+    },
+    {
+      "municipality": "Echt-Susteren",
+      "places": [
+        "Echt",
+        "Susteren",
+        "Nieuwstadt",
+        "Roosteren",
+        "Pey",
+        "Slek",
+        "Dieteren",
+        "Koningsbosch",
+        "Maria Hoop",
+        "Echterbosch"
+      ]
+    },
+    {
+      "municipality": "Eijsden-Margraten",
+      "places": [
+        "Eijsden",
+        "Margraten",
+        "Gronsveld",
+        "Mheer",
+        "Noorbeek",
+        "Sint Geertruid",
+        "Cadier en Keer",
+        "Bemelen",
+        "Rijckholt",
+        "Banholt",
+        "Eckelrade",
+        "Oost-Maarland",
+        "Breust",
+        "Moerslag",
+        "Mesch",
+        "Scheulder"
+      ]
+    },
+    {
+      "municipality": "Gennep",
+      "places": [
+        "Gennep",
+        "Ottersum",
+        "Milsbeek",
+        "Heijen",
+        "Ven-Zelderheide"
+      ]
+    },
+    {
+      "municipality": "Gulpen-Wittem",
+      "places": [
+        "Gulpen",
+        "Wittem",
+        "Mechelen",
+        "Eys",
+        "Wijlre",
+        "Slenaken",
+        "Reijmerstok",
+        "Nijswiller",
+        "Partij",
+        "Euverem",
+        "Ingber",
+        "Wahlwiller",
+        "Eperheide"
+      ]
+    },
+    {
+      "municipality": "Heerlen",
+      "places": [
+        "Heerlen",
+        "Hoensbroek",
+        "Heerlerheide",
+        "Heerlerbaan",
+        "Schandelen",
+        "Molenberg",
+        "Meezenbroek",
+        "Zeswegen",
+        "Heksenberg",
+        "Rennemig"
+      ]
+    },
+    {
+      "municipality": "Horst aan de Maas",
+      "places": [
+        "Horst",
+        "Sevenum",
+        "Grubbenvorst",
+        "America",
+        "Meterik",
+        "Hegelsom",
+        "Lottum",
+        "Melderslo",
+        "Broekhuizen",
+        "Broekhuizenvorst",
+        "Tienray",
+        "Swolgen",
+        "Kronenberg"
+      ]
+    },
+    {
+      "municipality": "Kerkrade",
+      "places": [
+        "Kerkrade",
+        "Eygelshoven",
+        "Bleijerheide",
+        "Chevremont",
+        "Holz",
+        "Spekholzerheide"
+      ]
+    },
+    {
+      "municipality": "Landgraaf",
+      "places": [
+        "Schaesberg",
+        "Ubach over Worms",
+        "Nieuwenhagen",
+        "Waubach",
+        "Rimburg"
+      ]
+    },
+    {
+      "municipality": "Leudal",
+      "places": [
+        "Heythuysen",
+        "Roggel",
+        "Neer",
+        "Haelen",
+        "Horn",
+        "Buggenum",
+        "Nunhem",
+        "Grathem",
+        "Kelpen-Oler",
+        "Hunsel",
+        "Ell",
+        "Baexem",
+        "Heel"
+      ]
+    },
+    {
+      "municipality": "Maasgouw",
+      "places": [
+        "Maasbracht",
+        "Heel",
+        "Thorn",
+        "Stevensweert",
+        "Wessem",
+        "Linne",
+        "Beegden",
+        "Panheel",
+        "Ohé en Laak"
+      ]
+    },
+    {
+      "municipality": "Maastricht",
+      "places": [
+        "Maastricht",
+        "Wyck",
+        "Céramique",
+        "Sint Pieter",
+        "Wolder",
+        "Amby",
+        "Heer",
+        "Scharn",
+        "Daalhof",
+        "Malberg",
+        "Malpertuis",
+        "Randwyck",
+        "Limmel",
+        "Borgharen",
+        "Itteren"
+      ]
+    },
+    {
+      "municipality": "Meerssen",
+      "places": [
+        "Meerssen",
+        "Bunde",
+        "Geulle",
+        "Rothem",
+        "Ulestraten"
+      ]
+    },
+    {
+      "municipality": "Mook en Middelaar",
+      "places": [
+        "Mook",
+        "Middelaar",
+        "Plasmolen"
+      ]
+    },
+    {
+      "municipality": "Nederweert",
+      "places": [
+        "Nederweert",
+        "Nederweert-Eind",
+        "Ospel",
+        "Leveroy",
+        "Budschop"
+      ]
+    },
+    {
+      "municipality": "Peel en Maas",
+      "places": [
+        "Panningen",
+        "Helden",
+        "Maasbree",
+        "Meijel",
+        "Kessel",
+        "Baarlo",
+        "Egchel",
+        "Koningslust",
+        "Beringe",
+        "Grashoek"
+      ]
+    },
+    {
+      "municipality": "Roerdalen",
+      "places": [
+        "Sint Odiliënberg",
+        "Melick",
+        "Herkenbosch",
+        "Posterholt",
+        "Vlodrop",
+        "Montfort"
+      ]
+    },
+    {
+      "municipality": "Roermond",
+      "places": [
+        "Roermond",
+        "Herten",
+        "Maasniel",
+        "Swalmen",
+        "Asenray",
+        "Leeuwen",
+        "Merum",
+        "Ool"
+      ]
+    },
+    {
+      "municipality": "Simpelveld",
+      "places": [
+        "Simpelveld",
+        "Bocholtz"
+      ]
+    },
+    {
+      "municipality": "Sittard-Geleen",
+      "places": [
+        "Sittard",
+        "Geleen",
+        "Born",
+        "Buchten",
+        "Holtum",
+        "Grevenbicht",
+        "Obbicht",
+        "Papenhoven",
+        "Guttecoven",
+        "Limbricht",
+        "Einighausen",
+        "Windraak"
+      ]
+    },
+    {
+      "municipality": "Stein",
+      "places": [
+        "Stein",
+        "Elsloo",
+        "Urmond",
+        "Berg aan de Maas",
+        "Meers",
+        "Nattenhoven",
+        "Maasband"
+      ]
+    },
+    {
+      "municipality": "Vaals",
+      "places": [
+        "Vaals",
+        "Vijlen",
+        "Lemiers",
+        "Holset",
+        "Raren"
+      ]
+    },
+    {
+      "municipality": "Valkenburg aan de Geul",
+      "places": [
+        "Valkenburg",
+        "Houthem",
+        "Berg",
+        "Terblijt",
+        "Schin op Geul",
+        "Sibbe",
+        "Oud-Valkenburg",
+        "Walem",
+        "Strucht",
+        "IJzeren"
+      ]
+    },
+    {
+      "municipality": "Venlo",
+      "places": [
+        "Venlo",
+        "Blerick",
+        "Tegelen",
+        "Steyl",
+        "Arcen",
+        "Velden",
+        "Lomm",
+        "Belfeld",
+        "Hout-Blerick"
+      ]
+    },
+    {
+      "municipality": "Venray",
+      "places": [
+        "Venray",
+        "Ysselsteyn",
+        "Oostrum",
+        "Leunen",
+        "Merselo",
+        "Castenray",
+        "Heide",
+        "Veulen",
+        "Vredepeel",
+        "Smakt",
+        "Blitterswijck",
+        "Wanssum",
+        "Geijsteren"
+      ]
+    },
+    {
+      "municipality": "Voerendaal",
+      "places": [
+        "Voerendaal",
+        "Klimmen",
+        "Ransdaal",
+        "Ubachsberg",
+        "Kunrade",
+        "Mingersberg",
+        "Colmont"
+      ]
+    },
+    {
+      "municipality": "Weert",
+      "places": [
+        "Weert",
+        "Stramproy",
+        "Swartbroek",
+        "Altweerterheide",
+        "Laar",
+        "Tungelroy",
+        "Boshoven",
+        "Hushoven",
+        "Leuken",
+        "Graswinkel"
+      ]
+    }
+  ]
+}

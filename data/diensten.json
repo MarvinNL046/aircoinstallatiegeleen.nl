@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "installatie",
+    "title": "Airco Installatie",
+    "description": "Professionele installatie van airconditioning systemen voor uw woning of bedrijf.",
+    "benefits": [
+      "Gratis inspectie en advies aan huis",
+      "Vakkundige installatie door gecertificeerde monteurs",
+      "Uitgebreide garantie op onderdelen en werkzaamheden",
+      "Energiezuinige oplossingen op maat",
+      "24/7 service en ondersteuning"
+    ],
+    "features": [
+      "Compleet installatieplan op maat",
+      "Netjes en schoon werken",
+      "Snelle en professionele montage",
+      "Uitgebreide uitleg en instructie",
+      "5 jaar garantie op installatie"
+    ],
+    "price": {
+      "from": 1299,
+      "currency": "EUR"
+    }
+  },
+  {
+    "slug": "onderhoud",
+    "title": "Airco Onderhoud",
+    "description": "Regelmatig onderhoud van uw airconditioning systeem is essentieel voor optimale prestaties en een lange levensduur.",
+    "benefits": [
+      "Preventief onderhoud voorkomt storingen",
+      "Verlenging van de levensduur van uw systeem",
+      "Optimale energie-efficiëntie",
+      "Gezondere lucht door schone filters",
+      "Flexibele onderhoudscontracten"
+    ],
+    "features": [
+      "Complete systeem inspectie",
+      "Reiniging van filters en componenten",
+      "Controle van koudemiddel",
+      "Prestatie optimalisatie",
+      "Uitgebreid onderhoudsrapport"
+    ],
+    "price": {
+      "from": 9,
+      "currency": "EUR",
+      "period": "per maand"
+    }
+  },
+  {
+    "slug": "reparatie",
+    "title": "Airco Reparatie",
+    "description": "Bij storingen aan uw airconditioning staat ons team van experts voor u klaar.",
+    "benefits": [
+      "Snelle responstijd bij storingen",
+      "Ervaren monteurs voor alle merken",
+      "Transparante prijzen zonder verrassingen",
+      "Originele onderdelen met garantie",
+      "Noodreparatie service beschikbaar"
+    ],
+    "features": [
+      "24/7 storingsdienst",
+      "Diagnose en prijsopgave vooraf",
+      "Reparatie van alle merken",
+      "Originele onderdelen",
+      "Garantie op reparaties"
+    ],
+    "price": {
+      "from": 129,
+      "currency": "EUR"
+    }
+  }
+]

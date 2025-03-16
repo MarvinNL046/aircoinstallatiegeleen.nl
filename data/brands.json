@@ -1,0 +1,92 @@
+{
+  "brands": [
+    {
+      "name": "Daikin",
+      "slug": "daikin",
+      "description": "Daikin staat bekend om zijn innovatieve technologie en hoge kwaliteit airconditioners.",
+      "features": [
+        "Zeer energiezuinig met hoge SEER-waarden",
+        "Geavanceerde luchtfiltering",
+        "Fluisterstille werking",
+        "Smart control via app"
+      ]
+    },
+    {
+      "name": "Mitsubishi Electric",
+      "slug": "mitsubishi-electric",
+      "description": "Mitsubishi Electric is synoniem met betrouwbaarheid en duurzaamheid.",
+      "features": [
+        "Plasma Quad Plus filtersysteem",
+        "Hyper Heating technologie",
+        "MELCloud connectiviteit",
+        "3D i-see sensor"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung",
+      "description": "Samsung combineert stijlvol design met slimme technologie.",
+      "features": [
+        "WindFree technologie",
+        "AI Auto Comfort",
+        "Triple Protector Plus",
+        "SmartThings integratie"
+      ]
+    },
+    {
+      "name": "Toshiba",
+      "slug": "toshiba",
+      "description": "Toshiba staat bekend om zijn betrouwbare en innovatieve airconditioners met geavanceerde technologie.",
+      "features": [
+        "HADA Care luchtstroom",
+        "Ultra HD filtratie",
+        "Hybrid Inverter technologie",
+        "Toshiba Home AC Control app"
+      ]
+    },
+    {
+      "name": "Mitsubishi Heavy Industries",
+      "slug": "mitsubishi-heavy",
+      "description": "Mitsubishi Heavy Industries levert robuuste en efficiënte airconditioners met superieure prestaties.",
+      "features": [
+        "Silent Operation technologie",
+        "Allergen Clear systeem",
+        "3D Auto luchtstroomregeling",
+        "Wi-Fi control mogelijkheid"
+      ]
+    },
+    {
+      "name": "LG",
+      "slug": "lg",
+      "description": "LG biedt innovatieve airconditioners met geavanceerde technologieën voor optimaal comfort.",
+      "features": [
+        "Dual Inverter Compressor",
+        "ThinQ smart control",
+        "UVnano technologie",
+        "Active Energy Control"
+      ]
+    },
+    {
+      "name": "Tosot",
+      "slug": "tosot",
+      "description": "Tosot levert betrouwbare airconditioners met een uitstekende prijs-kwaliteitverhouding.",
+      "features": [
+        "I-Feel temperatuurregeling",
+        "Ultra-stil ontwerp",
+        "Intelligente ontdooiing",
+        "Multi-stage filtratie"
+      ]
+    },
+    {
+      "name": "Gree",
+      "slug": "gree",
+      "description": "Gree is wereldwijd marktleider in airconditioning met focus op innovatie en kwaliteit.",
+      "features": [
+        "G-Tech Inverter technologie",
+        "Self-clean functie",
+        "WiFi-besturing",
+        "Cold Plasma Generator"
+      ]
+    }
+  ]
+}

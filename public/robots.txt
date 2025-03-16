@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Host
+Host: https://aircoinstallatie-maastricht.nl
+
+# Sitemaps
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap.xml
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-locations.xml
+Sitemap: https://aircoinstallatie-maastricht.nl/sitemap-services.xml
