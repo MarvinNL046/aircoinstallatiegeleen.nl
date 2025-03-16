@@ -19,7 +19,7 @@ export function CTASection() {
                     Vraag Nu een Gratis Offerte Aan
                   </h2>
                   <p className="mt-4 text-lg text-muted-foreground">
-                    Ontvang binnen 24 uur een vrijblijvende offerte voor uw airconditioning project in Maastricht en omgeving.
+                    Ontvang binnen 24 uur een vrijblijvende offerte voor uw airconditioning project in Geleen en omgeving.
                   </p>
                   <ul className="mt-6 space-y-3 text-sm">
                     <li className="flex items-center gap-2">
