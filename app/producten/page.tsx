@@ -13,6 +13,7 @@ import samsungProductsData from "@/data/products-samsung.json"
 import lgProductsData from "@/data/products-lg.json"
 import mitsubishiProductsData from "@/data/products-mitsubishi.json"
 import staycoolProductsData from "@/data/products-staycool.json"
+import tosotProductsData from "@/data/products-tosot.json"
 import { Phone, MailIcon, MessageSquare } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ export default function ProductsPage() {
   const lgProducts = lgProductsData.products || []
   const mitsubishiProducts = mitsubishiProductsData.products || []
   const staycoolProducts = staycoolProductsData.products || []
+  // Handle tosot products in a way that works with different structures
+  let tosotProducts: any[] = []
+  if (Array.isArray(tosotProductsData)) {
+    tosotProducts = tosotProductsData
+  } else if (tosotProductsData && typeof tosotProductsData === 'object') {
+    // Use type assertion to tell TypeScript this object might have a products property
+    const dataWithProducts = tosotProductsData as { products?: any[] }
+    tosotProducts = dataWithProducts.products || []
+  }
   
   const products = [
     ...daikinProducts,
@@ -48,7 +58,8 @@ export default function ProductsPage() {
     ...samsungProducts,
     ...lgProducts,
     ...mitsubishiProducts,
-    ...staycoolProducts
+    ...staycoolProducts,
+    ...tosotProducts
   ]
   const { brands } = brandsData
 
