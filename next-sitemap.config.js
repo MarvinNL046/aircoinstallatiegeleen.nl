@@ -19,6 +19,7 @@ module.exports = {
     additionalSitemaps: [
       "https://aircoinstallatiegeleen.nl/sitemap-locations.xml",
       "https://aircoinstallatiegeleen.nl/sitemap-services.xml",
+      "https://aircoinstallatiegeleen.nl/sitemap-products.xml",
     ],
   },
   exclude: ['/404', '/500', '/offline'],

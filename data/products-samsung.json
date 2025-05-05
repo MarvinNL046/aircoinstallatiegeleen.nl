@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+      "id": "samsung-windfree-comfort",
+      "name": "Samsung WindFree Comfort",
+      "slug": "samsung-windfree-comfort",
+      "brand": "Samsung",
+      "brandSlug": "samsung",
+      "type": "wandmodel",
+      "description": "De Samsung WindFree Comfort revolutioneert de manier waarop u airconditioning ervaart. Met de unieke WindFree technologie wordt koele lucht zacht en gelijkmatig verspreid door duizenden microgaatjes, zonder directe koude luchtstroom op uw lichaam.",
+      "features": [
+        "WindFree technologie voor zacht en gelijkmatig verspreiden van koele lucht",
+        "AI Auto Comfort past automatisch aan op omgevingsfactoren",
+        "Triple Protector Plus voor duurzaamheid en betrouwbaarheid",
+        "Energiezuinige Digital Inverter Boost technologie",
+        "SmartThings integratie voor slimme bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "16-41 dB(A)",
+        "vermogenKoelen": "2.5 kW - 6.8 kW"
+      },
+      "images": [
+        "/images/producten/samsung/windfreeComfort/Wind-Free Comfort_Front_WhiteWEB8.jpg.webp",
+        "/images/producten/samsung/windfreeComfort/Wind-Free Comfort_Front-Open_WhiteWEB.png.webp",
+        "/images/producten/samsung/windfreeComfort/Wind-Free Comfort_Dynamic(L)_WhiteWEB.png.webp",
+        "/images/producten/samsung/windfreeComfort/Wind-Free Comfort_Dynamic(R)_WhiteWEB.png.webp"
+      ]
+    },
+    {
+      "id": "samsung-windfree-elite",
+      "name": "Samsung WindFree Elite",
+      "slug": "samsung-windfree-elite",
+      "brand": "Samsung",
+      "brandSlug": "samsung",
+      "type": "wandmodel",
+      "description": "De Samsung WindFree Elite is het premium model in de WindFree serie, met geavanceerde AI-functies en superieure prestaties. Dit high-end model verenigt stijlvol design met revolutionaire koeltechnologie zonder directe luchtstroom en intelligente bediening voor het ultieme comfort.",
+      "features": [
+        "WindFree Cooling technologie met 23.000 microgaatjes",
+        "AI Auto Comfort met machine learning voor optimale temperatuurregeling",
+        "PM1.0 filter verwijdert 99% van de ultrafijne stofdeeltjes",
+        "Energiezuinige R32 koelmiddel met lage milieu-impact",
+        "3-zijdige luchtuitlaat voor snellere koeling"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "16-39 dB(A)",
+        "vermogenKoelen": "2.5 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/samsung/windfreeElite/Wind-Free Elite_Front-Open_White2.png.webp",
+        "/images/producten/samsung/windfreeElite/Wind-Free Elite_outdoor unit_2-5 and 3-5kW_Front.jpg.webp"
+      ]
+    },
+    {
+      "id": "samsung-windfree-pure",
+      "name": "Samsung WindFree Pure",
+      "slug": "samsung-windfree-pure",
+      "brand": "Samsung",
+      "brandSlug": "samsung",
+      "type": "wandmodel",
+      "description": "De Samsung WindFree Pure combineert de innovatieve WindFree technologie met geavanceerde luchtzuivering voor een optimaal binnenklimaat. Dit model biedt niet alleen comfortabele koeling zonder tocht, maar zorgt ook voor gezonde, schone lucht in uw woning.",
+      "features": [
+        "WindFree Cooling technologie voor aangename koeling zonder direct voelbare luchtstroom",
+        "PM1.0 filter vangt ultrafijne stofdeeltjes, allergenen en bacteriën",
+        "Virus Doctor technologie met ionisator neutraliseert schadelijke microdeeltjes",
+        "Easy Filter Plus aan de buitenkant voor eenvoudig onderhoud",
+        "SmartThings compatibel voor slimme bediening via smartphone"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "19-41 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/samsung/windfreePure/WindFree Pure - Front Closed - Web.webp",
+        "/images/producten/samsung/windfreePure/WindFree Pure - Front Open - Web.webp",
+        "/images/producten/samsung/windfreePure/WindFree Pure - Left - Web.webp",
+        "/images/producten/samsung/windfreePure/WindFree Pure - Right - Web.webp"
+      ]
+    },
+    {
+      "id": "samsung-cebu",
+      "name": "Samsung Cebu",
+      "slug": "samsung-cebu",
+      "brand": "Samsung",
+      "brandSlug": "samsung",
+      "type": "wandmodel",
+      "description": "De Samsung Cebu is een betaalbare maar krachtige airconditioner die uitstekende prestaties levert. Dit gebruiksvriendelijke model biedt een perfecte balans tussen functionaliteit, energie-efficiëntie en prijs, waardoor het een populaire keuze is voor zowel woningen als kantoorruimtes.",
+      "features": [
+        "Digital Inverter Boost technologie voor energiebesparing",
+        "Fast Cooling functie voor snelle koeling van de ruimte",
+        "Auto Clean functie voorkomt schimmel- en bacterievorming",
+        "Comfort Care luchtstroom voorkomt directe koude luchtstromen",
+        "Samsung SmartThings app-ondersteuning voor bedienen op afstand"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "19-41 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/samsung/cebu/Cebu_Front_WhiteWEB.png.webp",
+        "/images/producten/samsung/cebu/Cebu_Front-Open_WhiteWEB.png.webp",
+        "/images/producten/samsung/cebu/Cebu_Dynamic(L)_WhiteWEB.png.webp",
+        "/images/producten/samsung/cebu/Cebu_Dynamic(R)_WhiteWEB.png.webp",
+        "/images/producten/samsung/cebu/Cebu_outdoor unit_2-5 and 3-5kW_FrontWEB.png.webp"
+      ]
+    }
+  ]
+}

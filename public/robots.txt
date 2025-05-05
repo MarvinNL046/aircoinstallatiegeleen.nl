@@ -13,3 +13,4 @@ Host: https://aircoinstallatiegeleen.nl
 Sitemap: https://aircoinstallatiegeleen.nl/sitemap.xml
 Sitemap: https://aircoinstallatiegeleen.nl/sitemap-locations.xml
 Sitemap: https://aircoinstallatiegeleen.nl/sitemap-services.xml
+Sitemap: https://aircoinstallatiegeleen.nl/sitemap-products.xml

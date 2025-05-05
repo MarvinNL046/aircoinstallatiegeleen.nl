@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "aircocover-wit",
+      "name": "AircoCover Beschermhoes Wit",
+      "slug": "aircocover-wit",
+      "brand": "StayCool",
+      "brandSlug": "staycool",
+      "type": "accessoire",
+      "description": "De StayCool AircoCover in wit is een hoogwaardige beschermhoes voor uw buitenunit. Deze duurzame cover beschermt uw airco tegen regen, wind, stof en UV-straling, waardoor de levensduur wordt verlengd en de efficiëntie behouden blijft.",
+      "features": [
+        "Weerbestendig materiaal beschermt tegen alle weersomstandigheden",
+        "UV-bestendig om verkleuring en materiaalafbraak te voorkomen",
+        "Eenvoudig te installeren met verstelbare bevestigingsriemen",
+        "Ventilatieopeningen voorkomen condensvorming",
+        "Geschikt voor de meeste standaard buitenunits"
+      ],
+      "specifications": {
+        "energieLabel": "N/A",
+        "geluidsniveau": "N/A",
+        "vermogenKoelen": "N/A"
+      },
+      "images": [
+        "/images/producten/airco-covers/aircocover-wit.webp",
+        "/images/producten/airco-covers/aircocover-wit-voorkant.webp",
+        "/images/producten/airco-covers/aircocover-wit-zijkant.webp",
+        "/images/producten/airco-covers/aircocover-wit-binnenkant.webp"
+      ]
+    },
+    {
+      "id": "aircocover-antraciet",
+      "name": "AircoCover Beschermhoes Antraciet",
+      "slug": "aircocover-antraciet",
+      "brand": "StayCool",
+      "brandSlug": "staycool",
+      "type": "accessoire",
+      "description": "De StayCool AircoCover in antraciet is een stijlvolle en duurzame beschermhoes voor uw airco buitenunit. Met zijn donkere kleur past deze hoes subtiel in elke buitenomgeving en biedt optimale bescherming tegen weer, wind en stof.",
+      "features": [
+        "Waterafstotend en weerbestendig materiaal voor jarenlange bescherming",
+        "UV-bestendig om verkleuring en materiaalafbraak te voorkomen",
+        "Eenvoudig te installeren met verstelbare bevestigingsriemen",
+        "Ventilatieopeningen voorkomen condensvorming",
+        "Geschikt voor de meeste standaard buitenunits"
+      ],
+      "specifications": {
+        "energieLabel": "N/A",
+        "geluidsniveau": "N/A",
+        "vermogenKoelen": "N/A"
+      },
+      "images": [
+        "/images/producten/airco-covers/aircocover-antraciet.webp",
+        "/images/producten/airco-covers/aircocover-antraciet-vooraanzicht.webp",
+        "/images/producten/airco-covers/aircocover-antraciet-zijkant.webp",
+        "/images/producten/airco-covers/aircocover-antraciet-binnenkant.webp"
+      ]
+    }
+  ]
+}

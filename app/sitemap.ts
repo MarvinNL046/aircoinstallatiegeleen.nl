@@ -3,6 +3,12 @@ import diensten from '@/data/diensten.json'
 import { getCities } from '@/lib/cities'
 import { blogPosts } from '@/data/blog-posts'
 import brands from '@/data/brands.json'
+import daikinProductsData from '@/data/products-daikin.json'
+import toshibaProductsData from '@/data/products-toshiba.json'
+import samsungProductsData from '@/data/products-samsung.json'
+import lgProductsData from '@/data/products-lg.json'
+import mitsubishiProductsData from '@/data/products-mitsubishi.json'
+import staycoolProductsData from '@/data/products-staycool.json'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aircoinstallatiegeleen.nl'
@@ -85,12 +91,46 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
   )
 
+  // Generate product URLs
+  const daikinProducts = daikinProductsData.products || []
+  const toshibaProducts = toshibaProductsData.products || []
+  const samsungProducts = samsungProductsData.products || []
+  const lgProducts = lgProductsData.products || []
+  const mitsubishiProducts = mitsubishiProductsData.products || []
+  const staycoolProducts = staycoolProductsData.products || []
+  
+  const allProducts = [
+    ...daikinProducts,
+    ...toshibaProducts,
+    ...samsungProducts,
+    ...lgProducts,
+    ...mitsubishiProducts,
+    ...staycoolProducts
+  ]
+  
+  const productUrls = allProducts.map((product) => ({
+    url: `${siteUrl}/producten/${product.slug}`,
+    lastModified,
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }))
+
+  // Add the main products page
+  const productsPageUrl = {
+    url: `${siteUrl}/producten`,
+    lastModified,
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
+  }
+
   return [
     ...staticPages,
+    productsPageUrl,
     ...cityUrls,
     ...serviceUrls,
     ...blogUrls,
     ...brandUrls,
+    ...productUrls,
     ...serviceCityUrls,
   ]
 }

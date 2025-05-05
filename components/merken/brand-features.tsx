@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Check } from "lucide-react"
+import { OptimizedImage } from "@/components/ui/optimized-image"
 
 interface BrandFeaturesProps {
   brand: {
@@ -20,6 +21,24 @@ export function BrandFeatures({ brand }: BrandFeaturesProps) {
           </li>
         ))}
       </ul>
+      
+      {/* Voorbeeld afbeelding van het merk */}
+      <div className="mt-6 relative overflow-hidden rounded-lg border border-gray-200 h-[300px]"
+           style={{ 
+             backgroundColor: '#f3f4f6',
+             display: 'flex',
+             alignItems: 'center',
+             justifyContent: 'center'
+           }}>
+        <OptimizedImage 
+          src={`/images/brands/${brand.name.toLowerCase().replace(/ /g, '-')}.webp`}
+          alt={`${brand.name} feature image`}
+          width={600}
+          height={400}
+          className="w-full h-full"
+          objectFit="contain"
+        />
+      </div>
     </Card>
   )
 }

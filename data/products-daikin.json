@@ -1,0 +1,198 @@
+{
+  "products": [
+    {
+      "id": "daikin-emura-wit",
+      "name": "Daikin Emura Wit",
+      "slug": "daikin-emura-wit",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Emura is een stijlvolle wandairco met een bekroond design. Deze elegante witte uitvoering combineert superieure prestaties met een minimalistisch design dat in elk interieur past.",
+      "features": [
+        "2-Zone Intelligent Eye bewegingssensor",
+        "3D-luchtstroom voor optimale verdeling",
+        "Fluisterstille werking vanaf 19dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Wi-Fi besturing via Daikin Online Controller"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-45 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-emura-wit.webp"
+      ]
+    },
+    {
+      "id": "daikin-emura-zilver",
+      "name": "Daikin Emura Zilver",
+      "slug": "daikin-emura-zilver",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Emura in stijlvolle zilver uitvoering combineert elegant design met krachtige prestaties. De subtiele zilverkleur geeft uw interieur een moderne en luxe uitstraling.",
+      "features": [
+        "2-Zone Intelligent Eye bewegingssensor",
+        "3D-luchtstroom voor optimale verdeling",
+        "Fluisterstille werking vanaf 19dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Wi-Fi besturing via Daikin Online Controller"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-45 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-emura-zilver.webp"
+      ]
+    },
+    {
+      "id": "daikin-emura-zwart",
+      "name": "Daikin Emura Zwart",
+      "slug": "daikin-emura-zwart",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Emura in matzwarte uitvoering is een statement in moderne interieurs. Het strakke zwarte design combineert stijl met hoogwaardige technologie voor optimaal klimaatcomfort.",
+      "features": [
+        "2-Zone Intelligent Eye bewegingssensor",
+        "3D-luchtstroom voor optimale verdeling",
+        "Fluisterstille werking vanaf 19dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Wi-Fi besturing via Daikin Online Controller"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-45 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-emura-zwart.webp"
+      ]
+    },
+    {
+      "id": "daikin-stylish-wit",
+      "name": "Daikin Stylish Wit",
+      "slug": "daikin-stylish-wit",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Stylish is de perfecte combinatie van stijl en efficiëntie. De slanke witte uitvoering is slechts 189mm diep, waardoor deze perfect past in elk modern interieur.",
+      "features": [
+        "Coanda-effect voor optimale verdeling van lucht en temperatuur",
+        "Flash Streamer-technologie voor luchtzuivering",
+        "Geluidsarm tot slechts 19 dB(A)",
+        "Energieklasse tot A+++ voor verwarmen en koelen",
+        "Ingebouwde Wi-Fi adapter voor app-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-41 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-stylish-wit.webp"
+      ]
+    },
+    {
+      "id": "daikin-stylish-zwart",
+      "name": "Daikin Stylish Zwart",
+      "slug": "daikin-stylish-zwart",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Stylish in elegante zwarte uitvoering is een stijlvol statement in uw interieur. Het slanke ontwerp van slechts 189mm diep combineert minimalisme met geavanceerde technologie.",
+      "features": [
+        "Coanda-effect voor optimale verdeling van lucht en temperatuur",
+        "Flash Streamer-technologie voor luchtzuivering",
+        "Geluidsarm tot slechts 19 dB(A)",
+        "Energieklasse tot A+++ voor verwarmen en koelen",
+        "Ingebouwde Wi-Fi adapter voor app-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-41 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-stylish-zwart.webp"
+      ]
+    },
+    {
+      "id": "daikin-stylish-silver",
+      "name": "Daikin Stylish Zilver",
+      "slug": "daikin-stylish-silver",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Stylish in luxe zilverkleur voegt een moderne touch toe aan elk interieur. De slanke unit is slechts 189mm diep en combineert een subtiel zilver design met topprestaties.",
+      "features": [
+        "Coanda-effect voor optimale verdeling van lucht en temperatuur",
+        "Flash Streamer-technologie voor luchtzuivering",
+        "Geluidsarm tot slechts 19 dB(A)",
+        "Energieklasse tot A+++ voor verwarmen en koelen",
+        "Ingebouwde Wi-Fi adapter voor app-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-41 dB(A)",
+        "vermogenKoelen": "2.0 kW - 3.5 kW"
+      },
+      "images": [
+        "/images/producten/daikin-stylish-silver.webp"
+      ]
+    },
+    {
+      "id": "daikin-perfera-vloermodel",
+      "name": "Daikin Perfera Vloermodel",
+      "slug": "daikin-perfera-vloermodel",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "vloermodel",
+      "description": "Het Daikin Perfera vloermodel is ideaal voor ruimtes waar een wandmodel niet mogelijk of gewenst is. Door de dubbele luchtuitlaat biedt dit vloermodel een optimale warmteverdeling.",
+      "features": [
+        "Dubbele luchtuitlaat voor optimale warmteverdeling",
+        "Flash Streamer-technologie voor luchtzuivering",
+        "Fluisterstille werking vanaf 19dB(A)",
+        "Energielabel tot A++ in koelen en verwarmen",
+        "Ingebouwde Wi-Fi adapter voor app-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "19-38 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Perfera-vloermodel-left.webp",
+        "/images/producten/Perfera vloermodel-right.webp"
+      ]
+    },
+    {
+      "id": "daikin-ururu-sarara",
+      "name": "Daikin Ururu Sarara",
+      "slug": "daikin-ururu-sarara",
+      "brand": "Daikin",
+      "brandSlug": "daikin",
+      "type": "wandmodel",
+      "description": "De Daikin Ururu Sarara is het premium model van Daikin dat niet alleen kan koelen en verwarmen, maar ook kan bevochtigen, ontvochtigen, ventileren en de lucht zuiveren. Dit 5-in-1 systeem biedt het ultieme klimaatcomfort.",
+      "features": [
+        "5-in-1: koelen, verwarmen, bevochtigen, ontvochtigen en luchtzuivering",
+        "Flash Streamer-technologie verwijdert 99,9% van allergie en virussen",
+        "Zelfreinigend filter houdt prestaties optimaal",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Ingebouwde Wi-Fi adapter voor app-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-38 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Ururu-Sarara-left.webp",
+        "/images/producten/Ururu-Sarara-right.webp"
+      ]
+    }
+  ]
+}

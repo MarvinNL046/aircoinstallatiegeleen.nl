@@ -1,6 +1,17 @@
 {
   "brands": [
     {
+      "name": "StayCool",
+      "slug": "staycool",
+      "description": "StayCool is ons eigen merk voor hoogwaardige airco accessoires en onderdelen, speciaal ontwikkeld om uw airconditioning in optimale staat te houden en de levensduur te verlengen.",
+      "features": [
+        "Premium kwaliteit materialen voor lange levensduur",
+        "Speciaal ontwikkeld voor het Nederlandse klimaat",
+        "Uitstekende prijs-kwaliteitverhouding",
+        "100% compatibel met alle grote airco merken"
+      ]
+    },
+    {
       "name": "Daikin",
       "slug": "daikin",
       "description": "Daikin staat bekend om zijn innovatieve technologie en hoge kwaliteit airconditioners.",

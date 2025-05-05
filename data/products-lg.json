@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": "lg-artcool-mirror",
+      "name": "LG ARTCOOL Mirror",
+      "slug": "lg-artcool-mirror",
+      "brand": "LG",
+      "brandSlug": "lg",
+      "type": "wandmodel",
+      "description": "De LG ARTCOOL Mirror is een stijlvolle airconditioner met een spiegelend voorpaneel dat past in elk modern interieur. Niet alleen een lust voor het oog, maar ook technisch geavanceerd.",
+      "features": [
+        "Stijlvol spiegelend voorpaneel",
+        "Dual Inverter Compressor voor energiebesparing",
+        "4-weg swingfunctie voor optimale luchtverdeling",
+        "Ultrastil met slechts 19 dB(A)",
+        "SmartThinQ™ technologie voor bediening via smartphone"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "19-44 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/lg-artcool-mirror.webp",
+        "/images/producten/rac-eu-lg-artcool-black.webp"
+      ]
+    },
+    {
+      "id": "lg-dualcool-premium",
+      "name": "LG DUALCOOL Premium",
+      "slug": "lg-dualcool-premium",
+      "brand": "LG",
+      "brandSlug": "lg",
+      "type": "wandmodel",
+      "description": "De LG DUALCOOL Premium combineert elegant design met geavanceerde technologie. Deze hoogwaardige airconditioner biedt uitstekende prestaties en is voorzien van slimme functies voor optimaal comfort.",
+      "features": [
+        "Dual Inverter Compressor met 10 jaar garantie",
+        "UVnano™ technologie voor 99,9% bacterievrije lucht",
+        "AI Smart Control past zich aan uw gebruikspatronen aan",
+        "Ultrastil met slechts 19 dB(A)",
+        "SmartThinQ™ compatibel voor bediening via smartphone"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/LG-dualcool-indoor-premium.webp",
+        "/images/producten/LG-dualcool-indoor-premium-1.webp"
+      ]
+    },
+    {
+      "id": "lg-standard-plus",
+      "name": "LG Standard Plus",
+      "slug": "lg-standard-plus",
+      "brand": "LG",
+      "brandSlug": "lg",
+      "type": "wandmodel",
+      "description": "De LG Standard Plus biedt uitstekende prestaties tegen een aantrekkelijke prijs. Deze betrouwbare airconditioner beschikt over geavanceerde technologie en een elegant design, waardoor hij perfect past in elk interieur.",
+      "features": [
+        "Dual Inverter Compressor voor energiezuinigheid en duurzaamheid",
+        "Active Energy Control voor flexibele energiebesparing",
+        "Effectieve luchtzuivering met anti-allergeen filter",
+        "Stille werking met slechts 19 dB(A)",
+        "Gold Fin™ coating voor langere levensduur"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "19-45 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/rac-eu-standard-plus-.webp"
+      ]
+    }
+  ]
+}

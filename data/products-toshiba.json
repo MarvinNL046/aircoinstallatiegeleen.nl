@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "id": "toshiba-haori-zwart",
+      "name": "Toshiba Haori Zwart",
+      "slug": "toshiba-haori-zwart",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Haori in elegant zwart is een designstatement voor uw woning. Deze airconditioner met verwisselbare stoffronts laat u de uitstraling van de airco aanpassen aan uw interieur.",
+      "features": [
+        "Verwisselbare stoffronts in verschillende kleuren",
+        "Radar Sensor voor persoons- en positiedetectie",
+        "Ultrastille werking vanaf 19 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Voice control compatibel met Alexa en Google Assistant"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.6 kW"
+      },
+      "images": [
+        "/images/producten/Haori-zwart-vooraanzicht_3_11zon.webp",
+        "/images/producten/Haori-zwart-links_1_11zon.webp",
+        "/images/producten/Haori-zwart-rechts_2_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-haori-blauw",
+      "name": "Toshiba Haori Blauw",
+      "slug": "toshiba-haori-blauw",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Haori met blauwe stoffront brengt een vleugje kleur en stijl naar uw interieur. Deze innovatieve airconditioner laat u de uitstraling aanpassen aan uw interieur met verwisselbare stoffronts.",
+      "features": [
+        "Verwisselbare stoffronts in verschillende kleuren",
+        "Radar Sensor voor persoons- en positiedetectie",
+        "Ultrastille werking vanaf 19 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Voice control compatibel met Alexa en Google Assistant"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.6 kW"
+      },
+      "images": [
+        "/images/producten/Haori-blauw-links_16_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-haori-bruin",
+      "name": "Toshiba Haori Bruin",
+      "slug": "toshiba-haori-bruin",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Haori met bruine stoffront past perfect in natuurlijke en warme interieurs. Deze innovatieve airconditioner combineert design en functionaliteit met verwisselbare stoffronts die u zelf kunt kiezen.",
+      "features": [
+        "Verwisselbare stoffronts in verschillende kleuren",
+        "Radar Sensor voor persoons- en positiedetectie",
+        "Ultrastille werking vanaf 19 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Voice control compatibel met Alexa en Google Assistant"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.6 kW"
+      },
+      "images": [
+        "/images/producten/Haori-bruin-links_17_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-haori-creme",
+      "name": "Toshiba Haori Crème",
+      "slug": "toshiba-haori-creme",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Haori met crèmekleurige stoffront creëert een zachte, neutrale uitstraling die perfect past in elk interieur. Deze innovatieve airconditioner maakt van uw airco een stijlvol designobject.",
+      "features": [
+        "Verwisselbare stoffronts in verschillende kleuren",
+        "Radar Sensor voor persoons- en positiedetectie",
+        "Ultrastille werking vanaf 19 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Voice control compatibel met Alexa en Google Assistant"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.6 kW"
+      },
+      "images": [
+        "/images/producten/Haori-creme-links_18_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-haori-grijs",
+      "name": "Toshiba Haori Grijs",
+      "slug": "toshiba-haori-grijs",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Haori met grijze stoffront biedt een tijdloze, moderne uitstraling die past in elk interieur. Deze airconditioner combineert stijl en functionaliteit met verwisselbare stoffronts.",
+      "features": [
+        "Verwisselbare stoffronts in verschillende kleuren",
+        "Radar Sensor voor persoons- en positiedetectie",
+        "Ultrastille werking vanaf 19 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Voice control compatibel met Alexa en Google Assistant"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.6 kW"
+      },
+      "images": [
+        "/images/producten/Haori-grijs-links_19_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-daiseikai-wit",
+      "name": "Toshiba Daiseikai 10 Wit",
+      "slug": "toshiba-daiseikai-wit",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Daiseikai 10 in stijlvol wit is een hoogwaardige airco die uitblinkt in energiezuinigheid en luchtzuivering. Het moderne design past perfect in elk interieur.",
+      "features": [
+        "Plasma Ion Charger luchtzuiveringstechnologie",
+        "Ultra HD filtratie verwijdert 94% van de deeltjes kleiner dan PM2.5",
+        "Uitzonderlijk stil met slechts 20 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Ingebouwde Wi-Fi voor smartphone-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "20-43 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.5 kW"
+      },
+      "images": [
+        "/images/producten/Daiseikai 10-Wit-vooraanzicht_4_11zon.webp",
+        "/images/producten/Daiseikai 10-Wit-rechts_3_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-daiseikai-hout",
+      "name": "Toshiba Daiseikai 10 Hout",
+      "slug": "toshiba-daiseikai-hout",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Daiseikai 10 in unieke houtlook is een statement in elk interieur. Deze premium airconditioner combineert natuurlijke uitstraling met geavanceerde technologie voor de beste luchtkwaliteit en -temperatuur.",
+      "features": [
+        "Plasma Ion Charger luchtzuiveringstechnologie",
+        "Ultra HD filtratie verwijdert 94% van de deeltjes kleiner dan PM2.5",
+        "Uitzonderlijk stil met slechts 20 dB(A)",
+        "Energielabel tot A+++ in koelen en verwarmen",
+        "Ingebouwde Wi-Fi voor smartphone-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "20-43 dB(A)",
+        "vermogenKoelen": "2.5 kW - 4.5 kW"
+      },
+      "images": [
+        "/images/producten/Daiseikai 10-Hout-vooraanzicht_2_11zon.webp",
+        "/images/producten/Daiseikai 10-Hout-links-open_5_11zon.webp",
+        "/images/producten/Daiseikai 10-Hout-sfeerfoto_1_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-seiya-plus",
+      "name": "Toshiba Seiya Plus",
+      "slug": "toshiba-seiya-plus",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "wandmodel",
+      "description": "De Toshiba Seiya Plus is een betaalbare maar kwaliteitsvolle airconditioner met een strak design. Deze betrouwbare airco biedt uitstekende prestaties tegen een aantrekkelijke prijs.",
+      "features": [
+        "Compact en stijlvol design",
+        "Magic Coil met zelfreinigende coating",
+        "Stille werking vanaf 21 dB(A)",
+        "Energielabel tot A++ in koelen en verwarmen",
+        "Optionele Wi-Fi control voor smartphone-bediening"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "21-45 dB(A)",
+        "vermogenKoelen": "2.0 kW - 4.5 kW"
+      },
+      "images": [
+        "/images/producten/Seiya-plus-wit-vooraanzicht_12_11zon.webp",
+        "/images/producten/Seiya-plus-wit-links_9_11zon.webp",
+        "/images/producten/Seiya-plus-wit-rechts_11_11zon.webp",
+        "/images/producten/Seiya-plus-wit-onderaanzicht-open_10_11zon.webp"
+      ]
+    },
+    {
+      "id": "toshiba-console-vloermodel",
+      "name": "Toshiba Console Vloermodel",
+      "slug": "toshiba-console-vloermodel",
+      "brand": "Toshiba",
+      "brandSlug": "toshiba",
+      "type": "vloermodel",
+      "description": "Het Toshiba Console vloermodel is ideaal wanneer een wandmodel niet mogelijk is. Dit elegante vloermodel kan zowel vrijstaand als laag aan de wand worden gemonteerd en biedt optimale warmteverdeling.",
+      "features": [
+        "Dubbele luchtuitlaat voor optimale warmteverdeling",
+        "Compact design, slechts 60 cm breed",
+        "Stille werking vanaf 23 dB(A)",
+        "Energielabel tot A++ in koelen en verwarmen",
+        "Weekklok voor geprogrammeerde werking"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "23-47 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/toshiba-console-vloermodel-wit_13_11zon.webp",
+        "/images/producten/toshiba-console-vloermodel-wit-linksboven_14_11zon.webp",
+        "/images/producten/toshiba-console-vloermodel-wit-reacht_15_11zon.webp"
+      ]
+    }
+  ]
+}

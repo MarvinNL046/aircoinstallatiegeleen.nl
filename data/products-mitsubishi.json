@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "mitsubishi-heavy-srk-zs-wf",
+      "name": "Mitsubishi Heavy SRK-ZS-WF",
+      "slug": "mitsubishi-heavy-srk-zs-wf",
+      "brand": "Mitsubishi Heavy Industries",
+      "brandSlug": "mitsubishi-heavy",
+      "type": "wandmodel",
+      "description": "De Mitsubishi Heavy SRK-ZS-WF is een stijlvolle en krachtige wandairco met uitstekende prestaties. Dit model biedt een optimale balans tussen efficiëntie, comfort en prijs, en is perfect voor zowel woningen als kantoorruimtes.",
+      "features": [
+        "Allergen Clear systeem voor schonere lucht",
+        "3D Auto luchtstroomregeling voor optimale verspreiding",
+        "Silent Operation voor minimale geluidsniveaus",
+        "Ingebouwde bewegingssensor voor energiebesparing",
+        "WiFi-besturing optioneel beschikbaar"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "22-45 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Mitsubishi heavy indus/srk50zs-wf-wit-single-split-airco-wandmodel-2.5-3.5-5kw-1.webp",
+        "/images/producten/Mitsubishi heavy indus/srk50zs-wf-wit-single-split-airco-wandmodel-2.5-3.5-5kw-510x510.webp"
+      ]
+    },
+    {
+      "id": "mitsubishi-heavy-titanium",
+      "name": "Mitsubishi Heavy Titanium ZS-WFT",
+      "slug": "mitsubishi-heavy-titanium",
+      "brand": "Mitsubishi Heavy Industries",
+      "brandSlug": "mitsubishi-heavy",
+      "type": "wandmodel",
+      "description": "De Mitsubishi Heavy Titanium ZS-WFT is een premium wandairco met een elegant titanium design. Dit model combineert stijlvolle uitstraling met geavanceerde technologie voor optimaal comfort en efficiëntie.",
+      "features": [
+        "Exclusieve titanium afwerking voor een luxe uitstraling",
+        "Krachtig filtersysteem voor optimale luchtzuivering",
+        "Silent Mode voor een fluisterstille werking",
+        "Jetstream technologie voor snelle koeling",
+        "Econo Cool functie voor energiebesparing"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-42 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft.webp",
+        "/images/producten/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft-1.webp",
+        "/images/producten/Mitsubishi heavy indus/Mitsubishi-titanium-zs-wft-2.5-3.5-5.0kw-1-510x510.webp"
+      ]
+    },
+    {
+      "id": "mitsubishi-heavy-vloermodel",
+      "name": "Mitsubishi Heavy SRF-ZS-W Vloermodel",
+      "slug": "mitsubishi-heavy-vloermodel",
+      "brand": "Mitsubishi Heavy Industries",
+      "brandSlug": "mitsubishi-heavy",
+      "type": "vloermodel",
+      "description": "Het Mitsubishi Heavy SRF-ZS-W vloermodel biedt een uitstekende oplossing voor ruimtes waar een wandmontage niet mogelijk of gewenst is. Dit elegante vloermodel zorgt voor een optimale warmteverdeling en is bijzonder gebruiksvriendelijk.",
+      "features": [
+        "Dubbele luchtuitblaas voor optimale warmteverdeling",
+        "Compact en slank design dat weinig ruimte inneemt",
+        "Hot Keep functie voor comfortabele en constante warmte",
+        "Laag geluidsniveau voor ongestoord comfort",
+        "Eenvoudig te onderhouden en te reinigen"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "22-40 dB(A)",
+        "vermogenKoelen": "3.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Mitsubishi heavy indus/Mitsubishi-Heavy-SRF-35-ZS-W-Vloer-unit-35-kW-Exclusief-buiten-unit.webp",
+        "/images/producten/Mitsubishi heavy indus/Mitsubishi-aircowebwinkel-vloermodel.webp"
+      ]
+    },
+    {
+      "id": "mitsubishi-heavy-zsx-t",
+      "name": "Mitsubishi Heavy ZSX-T Premium",
+      "slug": "mitsubishi-heavy-zsx-t",
+      "brand": "Mitsubishi Heavy Industries",
+      "brandSlug": "mitsubishi-heavy",
+      "type": "wandmodel",
+      "description": "De Mitsubishi Heavy ZSX-T Premium is het topmodel in het assortiment van Mitsubishi Heavy Industries. Dit hoogwaardige wandmodel biedt ongekend comfort met de nieuwste technologie en een strak design.",
+      "features": [
+        "Premium inverse display met aanraakgevoelige bediening",
+        "3D bewegingssensor voor energiebesparing en comfort op maat",
+        "Geavanceerd filtersysteem voor optimale luchtkwaliteit",
+        "Zeer stil met slechts 19 dB(A) in Silent mode",
+        "Wi-Fi besturing via smartphone app"
+      ],
+      "specifications": {
+        "energieLabel": "A+++",
+        "geluidsniveau": "19-38 dB(A)",
+        "vermogenKoelen": "2.5 kW - 5.0 kW"
+      },
+      "images": [
+        "/images/producten/Mitsubishi heavy indus/ZSX-T-510x512.webp"
+      ]
+    }
+  ]
+}

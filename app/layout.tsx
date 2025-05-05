@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import { Toaster } from "@/components/ui/sonner"
 import { ThemeProvider } from "@/components/theme-provider"
+import { CTRTracker } from "@/components/analytics/ctr-tracker"
 import "./globals.css"
 
 const inter = Inter({ 
@@ -14,10 +15,10 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://aircoinstallatiegeleen.nl'),
   title: {
-    default: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
+    default: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte ✓',
     template: '%s | StayCool Airco Geleen'
   },
-  description: 'Dé airco specialist in Geleen! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie ✓ Beste prijs-kwaliteit ✓ 5 jaar garantie. Bel nu: 046 202 1430',
+  description: 'Dé airco specialist in Geleen! ✓ Professionele installatie ✓ Erkend installateur ✓ Alle topmerken ✓ 5 jaar garantie. Bel nu: 046 202 1430',
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -96,8 +97,8 @@ export const metadata = {
     locale: 'nl_NL',
     url: '/',
     siteName: 'StayCool Airco Geleen',
-    title: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
-    description: 'Dé airco specialist in Geleen! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie ✓ Beste prijs-kwaliteit',
+    title: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte ✓',
+    description: 'Dé airco specialist in Geleen! ✓ Professionele installatie ✓ Erkend installateur ✓ Alle topmerken ✓ 5 jaar garantie',
     images: [
       {
         url: '/opengraph-image',
@@ -109,8 +110,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte Binnen 24 Uur ✓',
-    description: 'Dé airco specialist in Geleen! ✓ Professionele installatie door StayCool Airco ✓ Erkend installateur ✓ Alle topmerken ✓ Binnen 24 uur reactie',
+    title: 'Airco Installatie Geleen | StayCool Airco | Gratis Offerte ✓',
+    description: 'Dé airco specialist in Geleen! ✓ Professionele installatie ✓ Erkend installateur ✓ Alle topmerken ✓ 5 jaar garantie',
     images: ['/opengraph-image'],
     creator: '@staycoolairco',
     site: '@staycoolairco'
@@ -164,6 +165,7 @@ export default function RootLayout({
             <Footer />
           </div>
           <Toaster position="top-center" />
+          <CTRTracker />
         </ThemeProvider>
       </body>
     </html>

@@ -1,10 +1,10 @@
 import { Metadata } from "next"
-import { HeroSection } from "@/components/sections/hero-section"
 import { FeaturesSection } from "@/components/sections/features-section"
 import { ServicesSection } from "@/components/sections/services-section"
 import { TestimonialsSection } from "@/components/sections/testimonials"
-import { CTASection } from "@/components/sections/cta-section"
-import { CTABanner } from "@/components/sections/cta-banner"
+import { EnhancedHeroSection } from "@/components/sections/enhanced-hero-section"
+import { EnhancedCTASection } from "@/components/sections/enhanced-cta-section"
+import { EnhancedCTABanner } from "@/components/sections/enhanced-cta-banner"
 import { generateOrganizationSchema } from "@/lib/schema"
 import Script from "next/script"
 
@@ -28,8 +28,8 @@ export default function HomePage() {
       />
       
       <main>
-        <CTABanner theme="light" />
-        <HeroSection />
+        <EnhancedCTABanner theme="light" />
+        <EnhancedHeroSection />
         <FeaturesSection />
         <ServicesSection />
         <section className="py-16 bg-gray-50">
@@ -62,8 +62,8 @@ export default function HomePage() {
           </div>
         </section>
         <TestimonialsSection />
-        <CTASection />
-        <CTABanner theme="dark" />
+        <EnhancedCTASection />
+        <EnhancedCTABanner theme="dark" />
       </main>
     </>
   )
