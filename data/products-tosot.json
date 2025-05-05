@@ -1,0 +1,220 @@
+[
+  {
+    "id": "tosot-clivia-wit",
+    "slug": "tosot-clivia-wit",
+    "name": "Tosot Clivia Wit",
+    "brand": "Tosot",
+    "brandSlug": "tosot",
+    "category": "wandmodel",
+    "type": "split-unit",
+    "description": "De Tosot Clivia Wit is een stijlvol wandmodel dat uitstekende prestaties combineert met een elegant design. Met geavanceerde features zoals de Smart WiFi besturing en effectieve luchtzuivering biedt deze airco een optimaal binnenklimaat.",
+    "shortDescription": "Elegant wandmodel met WiFi-besturing en luchtzuivering",
+    "features": [
+      "Smart WiFi besturing via mobiele app",
+      "Effectieve luchtzuivering",
+      "Energielabel A++",
+      "Stille werking vanaf 22dB(A)",
+      "I-Feel technologie voor perfecte temperatuurregeling",
+      "Self-cleaning functie"
+    ],
+    "specifications": {
+      "energyLabel": "A++",
+      "noiseLevel": "22dB(A)",
+      "cooling": {
+        "capacity": "2,6 kW",
+        "seer": "6,1"
+      },
+      "heating": {
+        "capacity": "2,9 kW",
+        "scop": "4,0"
+      },
+      "dimensions": {
+        "indoor": "790 x 275 x 200 mm"
+      }
+    },
+    "images": [
+      "/images/producten/tosot/724-clivia-wit-vooraanzicht.webp",
+      "/images/producten/tosot/723-clivia-wit-schuin.webp",
+      "/images/producten/tosot/727-clivia-wit-zijkant.webp"
+    ],
+    "price": 749,
+    "installation": {
+      "included": false,
+      "price": 450
+    }
+  },
+  {
+    "id": "tosot-clivia-zwart",
+    "slug": "tosot-clivia-zwart",
+    "name": "Tosot Clivia Zwart",
+    "brand": "Tosot",
+    "brandSlug": "tosot",
+    "category": "wandmodel",
+    "type": "split-unit",
+    "description": "De Tosot Clivia Zwart is een moderne wandairco met een stijlvol zwart design dat in elk interieur een statement maakt. Deze airco biedt niet alleen een fraai uiterlijk maar ook uitstekende koeling en verwarming met energielabel A++, gecombineerd met smart connectivity.",
+    "shortDescription": "Stijlvolle zwarte wandairco met geavanceerde functies",
+    "features": [
+      "Stijlvol zwart design",
+      "WiFi integratie voor smart home",
+      "I-Feel technologie voor perfecte temperatuurregeling",
+      "Turbo koeling voor snelle temperatuursverandering",
+      "Self-cleaning functie",
+      "Sleep modus voor optimaal nachtcomfort"
+    ],
+    "specifications": {
+      "energyLabel": "A++",
+      "noiseLevel": "22dB(A)",
+      "cooling": {
+        "capacity": "2,6 kW",
+        "seer": "6,1"
+      },
+      "heating": {
+        "capacity": "2,9 kW",
+        "scop": "4,0"
+      },
+      "dimensions": {
+        "indoor": "790 x 275 x 200 mm"
+      }
+    },
+    "images": [
+      "/images/producten/tosot/712-clivia-zwart-vooraanzicht.webp",
+      "/images/producten/tosot/711-clivia-zwart-schuin.webp",
+      "/images/producten/tosot/710-clivia-zwart-zijkant.webp"
+    ],
+    "price": 799,
+    "installation": {
+      "included": false,
+      "price": 450
+    }
+  },
+  {
+    "id": "tosot-pular",
+    "slug": "tosot-pular",
+    "name": "Tosot Pular",
+    "brand": "Tosot",
+    "brandSlug": "tosot",
+    "category": "wandmodel",
+    "type": "split-unit",
+    "description": "De Tosot Pular is een veelzijdig wandmodel dat speciaal is ontworpen voor middelgrote ruimtes. Met zijn geavanceerde I-Feel technologie meet de airco de temperatuur precies waar u bent, zodat u altijd van het perfecte klimaat geniet. Door de sleep-modus en anti-cold air functie is deze unit ook ideaal voor slaapkamers.",
+    "shortDescription": "Veelzijdig wandmodel met I-Feel technologie voor middelgrote ruimtes",
+    "features": [
+      "I-Feel technologie voor gerichte temperatuurmeting",
+      "Sleep modus voor comfortabele nachten",
+      "Anti-cold air functie",
+      "Energiezuinig A++ label",
+      "Auto-clean functie",
+      "Compact en stijlvol design"
+    ],
+    "specifications": {
+      "energyLabel": "A++",
+      "noiseLevel": "21dB(A)",
+      "cooling": {
+        "capacity": "3,5 kW",
+        "seer": "6,3"
+      },
+      "heating": {
+        "capacity": "3,8 kW",
+        "scop": "4,0"
+      },
+      "dimensions": {
+        "indoor": "805 x 285 x 194 mm"
+      }
+    },
+    "images": [
+      "/images/producten/tosot/568-Pular-indoor-vooraanzicht.webp",
+      "/images/producten/tosot/570-Pular-indoor-right.webp"
+    ],
+    "price": 849,
+    "installation": {
+      "included": false,
+      "price": 450
+    }
+  },
+  {
+    "id": "tosot-cosmo",
+    "slug": "tosot-cosmo",
+    "name": "Tosot Cosmo",
+    "brand": "Tosot",
+    "brandSlug": "tosot",
+    "category": "wandmodel",
+    "type": "split-unit",
+    "description": "De Tosot Cosmo combineert een modern design met geavanceerde functies. Met ECO-modus voor energiebesparing, timer functie voor geprogrammeerde werking en een auto-restart functie na stroomuitval biedt deze airco comfort en gebruiksgemak. Het model is ideaal voor zowel thuis- als kantoorgebruik.",
+    "shortDescription": "Modern design met ECO-modus en timer functie",
+    "features": [
+      "ECO-modus voor maximale energiebesparing",
+      "Programmeerbare timer functie",
+      "Auto-restart na stroomuitval",
+      "Stille werking voor ongestoord comfort",
+      "Zelfreinigende functie",
+      "Compact wandmodel voor verschillende ruimtes"
+    ],
+    "specifications": {
+      "energyLabel": "A++",
+      "noiseLevel": "23dB(A)",
+      "cooling": {
+        "capacity": "3,2 kW",
+        "seer": "6,2"
+      },
+      "heating": {
+        "capacity": "3,4 kW",
+        "scop": "4,0"
+      },
+      "dimensions": {
+        "indoor": "820 x 280 x 195 mm"
+      }
+    },
+    "images": [
+      "/images/producten/tosot/787-cosmo-indoor-vooraanzicht.webp",
+      "/images/producten/tosot/788-cosmo-indoor.webp",
+      "/images/producten/tosot/789-cosmo-indoor.webp"
+    ],
+    "price": 799,
+    "installation": {
+      "included": false,
+      "price": 450
+    }
+  },
+  {
+    "id": "tosot-wts-vloermodel",
+    "slug": "tosot-wts-vloermodel",
+    "name": "Tosot WTS Vloermodel",
+    "brand": "Tosot",
+    "brandSlug": "tosot",
+    "category": "vloermodel",
+    "type": "console",
+    "description": "Het Tosot WTS Vloermodel (Console) biedt een unieke oplossing voor situaties waar een wandmodel niet wenselijk is. Dit stijlvolle vloermodel kan laag aan de muur of op de vloer geplaatst worden en zorgt voor een effectieve klimaatbeheersing. Met de dubbele luchtuitlaat (boven en onder) wordt de ruimte snel en gelijkmatig geklimatiseerd.",
+    "shortDescription": "Stijlvol vloermodel met dubbele luchtuitlaat voor optimale luchtverdeling",
+    "features": [
+      "Dubbele luchtuitlaat (boven en onder)",
+      "Compact design voor flexibele plaatsing",
+      "Inclusief gebruiksvriendelijke afstandsbediening",
+      "Stille werking voor optimaal comfort",
+      "Energiezuinig A++ label",
+      "Ideaal voor onder raampartijen"
+    ],
+    "specifications": {
+      "energyLabel": "A++",
+      "noiseLevel": "24dB(A)",
+      "cooling": {
+        "capacity": "3,5 kW",
+        "seer": "6,1"
+      },
+      "heating": {
+        "capacity": "4,0 kW",
+        "scop": "4,0"
+      },
+      "dimensions": {
+        "indoor": "700 x 600 x 215 mm"
+      }
+    },
+    "images": [
+      "/images/producten/tosot/374-WTS-indoor-console-vloernmodel-tosot.webp",
+      "/images/producten/tosot/375-WTS-remote-console-tosot.webp"
+    ],
+    "price": 1099,
+    "installation": {
+      "included": false,
+      "price": 500
+    }
+  }
+]
