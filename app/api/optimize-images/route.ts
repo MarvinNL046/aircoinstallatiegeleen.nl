@@ -4,6 +4,9 @@ import path from 'path';
 import { exec } from 'child_process';
 import util from 'util';
 
+// Mark route as dynamic to prevent static pre-rendering issues
+export const dynamic = 'force-dynamic';
+
 const execPromise = util.promisify(exec);
 
 // Define supported image formats
