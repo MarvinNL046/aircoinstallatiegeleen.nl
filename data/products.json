@@ -560,6 +560,31 @@
         "/images/producten/LG-dualcool-indoor-premium.webp",
         "/images/producten/LG-dualcool-indoor-premium-1.webp"
       ]
+    },
+    {
+      "id": "samsung-360-cassette",
+      "name": "Samsung 360 Cassette",
+      "slug": "samsung-360-cassette",
+      "brand": "Samsung",
+      "brandSlug": "samsung",
+      "type": "cassette",
+      "description": "De Samsung 360 Cassette is een revolutionair plafondaircosysteem met een uniek rond ontwerp dat zorgt voor een gelijkmatige luchtverdeling in alle richtingen, zonder koude tocht. Perfect voor commerciële ruimtes zoals winkels, restaurants en kantoren waar zowel design als prestaties belangrijk zijn.",
+      "features": [
+        "360° luchtverdeling voor optimaal comfort zonder koude tocht",
+        "Boosterless technologie voor uniforme koeling in de gehele ruimte",
+        "Stijlvol rond design dat past in moderne interieurs",
+        "Bladloos ontwerp voor een subtiele luchtstroom",
+        "Compatibel met Samsung SmartThings voor slimme klimaatbeheersing"
+      ],
+      "specifications": {
+        "energieLabel": "A++",
+        "geluidsniveau": "28-36 dB(A)",
+        "vermogenKoelen": "7.1 kW - 14.0 kW"
+      },
+      "images": [
+        "/images/producten/samsung/casette/360 Cassette - Rond - Front - Web.webp",
+        "/images/producten/samsung/casette/360 Cassette - Rond - Angle - Web.webp"
+      ]
     }
   ]
 }
