@@ -8,7 +8,12 @@ interface BrandInfoProps {
 }
 
 export function BrandInfo({ brand }: BrandInfoProps) {
-  const brandInfo = getBrandInfo(brand.name)
+  // Use optional chaining and nullish coalescing to handle missing data
+  const brandInfo = getBrandInfo(brand.name) || {
+    history: `${brand.name} biedt hoogwaardige klimaatbeheersingsoplossingen voor diverse toepassingen.`,
+    innovation: `${brand.name} richt zich op innovatie en kwaliteit in al hun producten.`,
+    sustainability: `${brand.name} streeft naar duurzaamheid en energiezuinigheid in hun productlijn.`
+  }
 
   return (
     <Card className="p-6">
@@ -18,17 +23,17 @@ export function BrandInfo({ brand }: BrandInfoProps) {
       <div className="space-y-4">
         <div>
           <h3 className="font-semibold mb-2">Geschiedenis</h3>
-          <p className="text-muted-foreground">{brandInfo.history}</p>
+          <p className="text-muted-foreground">{brandInfo?.history}</p>
         </div>
         
         <div>
           <h3 className="font-semibold mb-2">Innovatie</h3>
-          <p className="text-muted-foreground">{brandInfo.innovation}</p>
+          <p className="text-muted-foreground">{brandInfo?.innovation}</p>
         </div>
 
         <div>
           <h3 className="font-semibold mb-2">Duurzaamheid</h3>
-          <p className="text-muted-foreground">{brandInfo.sustainability}</p>
+          <p className="text-muted-foreground">{brandInfo?.sustainability}</p>
         </div>
       </div>
     </Card>

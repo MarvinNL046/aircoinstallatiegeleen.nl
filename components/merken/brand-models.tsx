@@ -7,13 +7,25 @@ interface BrandModelsProps {
 }
 
 export function BrandModels({ brand }: BrandModelsProps) {
-  const models = getBrandModels(brand.name)
+  // Add fallback value if models are not found
+  const models = getBrandModels(brand.name) || [
+    {
+      name: `${brand.name} Serie 1`,
+      description: "Hoogwaardig residentieel model met uitstekende prestaties",
+      features: ["Energiezuinig", "Stil", "Smart Control"]
+    },
+    {
+      name: `${brand.name} Serie 2`,
+      description: "Geavanceerd model voor optimaal comfort",
+      features: ["Auto Cleaning", "WiFi Ready", "Milieuvriendelijk"]
+    }
+  ]
 
   return (
     <Card className="p-6">
       <h2 className="text-2xl font-semibold mb-4">Populaire Modellen</h2>
       <div className="grid gap-4">
-        {models.map((model, index) => (
+        {models?.map((model, index) => (
           <div key={index} className="border p-4 rounded-lg">
             <h3 className="font-semibold mb-2">{model.name}</h3>
             <p className="text-sm text-muted-foreground mb-2">{model.description}</p>

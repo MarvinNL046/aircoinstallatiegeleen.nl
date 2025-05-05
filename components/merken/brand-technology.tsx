@@ -7,13 +7,33 @@ interface BrandTechnologyProps {
 }
 
 export function BrandTechnology({ brand }: BrandTechnologyProps) {
-  const technology = getBrandTechnology(brand.name)
+  // Add fallback value if technology data is not found
+  const technology = getBrandTechnology(brand.name) || [
+    {
+      name: `${brand.name} Smart Control`,
+      description: "Intelligente klimaatbeheersing voor maximaal comfort",
+      benefits: [
+        "Optimale temperatuurregeling",
+        "Energiebesparend",
+        "Gebruiksvriendelijke bediening"
+      ]
+    },
+    {
+      name: `${brand.name} Air Purification`,
+      description: "Geavanceerd luchtzuiveringssysteem voor gezonde lucht",
+      benefits: [
+        "Filtert stofdeeltjes",
+        "Verwijdert allergenen",
+        "Verbetert de luchtkwaliteit"
+      ]
+    }
+  ]
 
   return (
     <Card className="p-6">
       <h2 className="text-2xl font-semibold mb-4">Technologie</h2>
       <div className="space-y-6">
-        {technology.map((tech, index) => (
+        {technology?.map((tech, index) => (
           <div key={index}>
             <h3 className="font-semibold text-blue-600 mb-2">{tech.name}</h3>
             <p className="text-muted-foreground mb-4">{tech.description}</p>
