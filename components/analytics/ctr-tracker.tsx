@@ -3,16 +3,17 @@
 import { useEffect } from "react"
 import Script from "next/script"
 
+// Track click events to analyze CTR
 type ClickEvent = {
-  element: string
-  location: string
+  elementId: string
+  pathname: string
   timestamp: Date
 }
 
 // Extend the Window interface to include our tracking functions
 declare global {
   interface Window {
-    trackCTR: (element: string, location: string) => void
+    trackCTR: (elementId: string, pathname: string) => void
     ctrEvents: ClickEvent[]
     sendCTRData: () => void
   }
@@ -26,14 +27,14 @@ export function CTRTracker() {
     }
 
     // Define tracking function
-    window.trackCTR = (element: string, location: string) => {
+    window.trackCTR = (elementId: string, pathname: string) => {
       window.ctrEvents.push({
-        element,
-        location,
+        elementId,
+        pathname,
         timestamp: new Date()
       })
       
-      console.log(`CTR Event tracked: ${element} in ${location}`)
+      console.log(`CTR Event tracked: ${elementId} in ${pathname}`)
       
       // If we have accumulated 5 or more events, send the data
       if (window.ctrEvents.length >= 5) {

@@ -126,7 +126,6 @@ async function scanAndOptimizeImages(
           try {
             // Optimized method with Sharp (if available)
             try {
-              const sharp = require('sharp');
               await optimizeWithSharp(entryPath, outputPath, format, quality);
             } catch (e) {
               // Fallback to exec if Sharp is not available
@@ -180,8 +179,11 @@ async function optimizeWithSharp(
   format: string, 
   quality: number
 ) {
-  const sharp = require('sharp');
-  let transformer = sharp(inputPath);
+  // Dynamically import sharp to avoid build issues
+  // @ts-ignore - Ignoring TS warning about require
+  const sharpModule = require('sharp');
+  
+  let transformer = sharpModule(inputPath);
   
   // Apply format-specific operations
   switch (format) {
