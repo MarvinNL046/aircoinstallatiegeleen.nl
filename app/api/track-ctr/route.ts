@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 
 // Define the shape of a click tracking event
 type ClickEvent = {
-  element: string
-  location: string
+  elementId: string
+  pathname: string
   timestamp: Date
 }
 
@@ -26,10 +26,10 @@ export async function POST(request: NextRequest) {
     
     // Process and store each event
     body.events.forEach((event: ClickEvent) => {
-      if (event.element && event.location) {
+      if (event.elementId && event.pathname) {
         ctrEvents.push({
-          element: event.element,
-          location: event.location,
+          elementId: event.elementId,
+          pathname: event.pathname,
           timestamp: new Date(event.timestamp) // Convert string to Date if needed
         })
       }
@@ -66,33 +66,33 @@ export async function GET() {
 function calculateCTRStats(events: ClickEvent[]) {
   // Group events by element type
   const elementCounts: Record<string, number> = {}
-  const locationCounts: Record<string, number> = {}
+  const pathnameCounts: Record<string, number> = {}
   
   events.forEach(event => {
     // Count by element type
-    elementCounts[event.element] = (elementCounts[event.element] || 0) + 1
+    elementCounts[event.elementId] = (elementCounts[event.elementId] || 0) + 1
     
-    // Count by location
-    locationCounts[event.location] = (locationCounts[event.location] || 0) + 1
+    // Count by pathname
+    pathnameCounts[event.pathname] = (pathnameCounts[event.pathname] || 0) + 1
   })
   
   // Calculate CTR for different elements
-  const elementStats = Object.entries(elementCounts).map(([element, count]) => ({
-    element,
+  const elementStats = Object.entries(elementCounts).map(([elementId, count]) => ({
+    elementId,
     clicks: count,
     percentage: events.length ? (count / events.length * 100).toFixed(2) + '%' : '0%'
   }))
   
   // Calculate CTR for different pages
-  const locationStats = Object.entries(locationCounts).map(([location, count]) => ({
-    location,
+  const pathnameStats = Object.entries(pathnameCounts).map(([pathname, count]) => ({
+    pathname,
     clicks: count,
     percentage: events.length ? (count / events.length * 100).toFixed(2) + '%' : '0%'
   }))
   
   return {
     byElement: elementStats,
-    byLocation: locationStats,
+    byPathname: pathnameStats,
     // Add time-based analytics in a real implementation
   }
 }
