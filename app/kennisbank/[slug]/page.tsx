@@ -85,7 +85,7 @@ export default function ArticlePage({ params }: Props) {
           {article.slug === 'scop-seer-waarden' ? (
             <ArticleContent />
           ) : (
-            <div className="mt-6">{article.content}</div>
+            <div className="mt-6" dangerouslySetInnerHTML={{ __html: article.content }}></div>
           )}
         </div>
       </Card>
