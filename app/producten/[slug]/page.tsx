@@ -15,6 +15,7 @@ import samsungProductsData from "@/data/products-samsung.json"
 import lgProductsData from "@/data/products-lg.json"
 import mitsubishiProductsData from "@/data/products-mitsubishi.json"
 import staycoolProductsData from "@/data/products-staycool.json"
+import tosotProductsData from "@/data/products-tosot.json"
 
 type Props = {
   params: { slug: string }
@@ -28,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lgProducts = lgProductsData.products || []
   const mitsubishiProducts = mitsubishiProductsData.products || []
   const staycoolProducts = staycoolProductsData.products || []
+  // Handle tosot products (which might be in array format)
+  const tosotProducts = Array.isArray(tosotProductsData) ? 
+    tosotProductsData : ((tosotProductsData as any).products || [])
   
   const allProducts = [
     ...daikinProducts,
@@ -35,7 +39,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ...samsungProducts,
     ...lgProducts,
     ...mitsubishiProducts,
-    ...staycoolProducts
+    ...staycoolProducts,
+    ...tosotProducts
   ]
   
   const product = allProducts.find(product => product.slug === params.slug)
@@ -64,6 +69,9 @@ export async function generateStaticParams() {
   const lgProducts = lgProductsData.products || []
   const mitsubishiProducts = mitsubishiProductsData.products || []
   const staycoolProducts = staycoolProductsData.products || []
+  // Handle tosot products (which might be in array format)
+  const tosotProducts = Array.isArray(tosotProductsData) ? 
+    tosotProductsData : ((tosotProductsData as any).products || [])
   
   const allProducts = [
     ...daikinProducts,
@@ -71,7 +79,8 @@ export async function generateStaticParams() {
     ...samsungProducts,
     ...lgProducts,
     ...mitsubishiProducts,
-    ...staycoolProducts
+    ...staycoolProducts,
+    ...tosotProducts
   ]
   
   return allProducts.map(product => ({
@@ -87,6 +96,9 @@ export default function ProductPage({ params }: Props) {
   const lgProducts = lgProductsData.products || []
   const mitsubishiProducts = mitsubishiProductsData.products || []
   const staycoolProducts = staycoolProductsData.products || []
+  // Handle tosot products (which might be in array format)
+  const tosotProducts = Array.isArray(tosotProductsData) ? 
+    tosotProductsData : ((tosotProductsData as any).products || [])
   
   const allProducts = [
     ...daikinProducts,
@@ -94,7 +106,8 @@ export default function ProductPage({ params }: Props) {
     ...samsungProducts,
     ...lgProducts,
     ...mitsubishiProducts,
-    ...staycoolProducts
+    ...staycoolProducts,
+    ...tosotProducts
   ]
   
   const product = allProducts.find(product => product.slug === params.slug)
@@ -137,7 +150,7 @@ export default function ProductPage({ params }: Props) {
           {/* Image gallery (if multiple images) */}
           {product.images.length > 1 && (
             <div className="grid grid-cols-4 gap-2">
-              {product.images.map((image, index) => (
+              {product.images.map((image: string, index: number) => (
                 <div 
                   key={index}
                   className="border border-gray-200 rounded-lg overflow-hidden bg-white p-2 cursor-pointer hover:border-blue-300 transition-colors"
@@ -192,7 +205,7 @@ export default function ProductPage({ params }: Props) {
           <div className="border-t border-b border-gray-200 py-5">
             <h2 className="font-semibold text-lg mb-3">Belangrijkste kenmerken</h2>
             <ul className="space-y-2">
-              {product.features.map((feature, idx) => (
+              {product.features.map((feature: string, idx: number) => (
                 <li key={idx} className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
                   <span>{feature}</span>
@@ -367,7 +380,7 @@ export default function ProductPage({ params }: Props) {
                 
                 <h3>Waarom kiezen voor {brand.name}?</h3>
                 <ul>
-                  {brand.features.map((feature, idx) => (
+                  {brand.features.map((feature: string, idx: number) => (
                     <li key={idx}>{feature}</li>
                   ))}
                 </ul>
