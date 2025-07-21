@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Send } from 'lucide-react';
-import { sendEmail } from '@/lib/emailjs';
+import { sendEmail } from '@/lib/email-dual';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({

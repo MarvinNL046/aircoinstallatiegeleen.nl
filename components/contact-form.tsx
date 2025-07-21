@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
 import { Loader2 } from "lucide-react"
-import { sendEmail } from "@/lib/emailjs"
+import { sendEmail } from "@/lib/email-dual"
 
 interface ContactFormProps {
   cityName?: string
@@ -28,7 +28,10 @@ export function ContactForm({ cityName }: ContactFormProps) {
     setIsSubmitting(true)
 
     try {
-      await sendEmail(formData)
+      await sendEmail({
+        ...formData,
+        city: cityName
+      })
       toast.success("Uw aanvraag is succesvol verzonden!")
       setFormData({
         name: "",
