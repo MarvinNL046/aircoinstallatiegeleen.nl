@@ -1,13 +1,15 @@
-import { Inter } from "next/font/google"
+import { Poppins } from "next/font/google"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
+import { MobileStickyCTA } from "@/components/layout/mobile-sticky-cta"
 import { Toaster } from "@/components/ui/sonner"
 import { ThemeProvider } from "@/components/theme-provider"
 import { CTRTracker } from "@/components/analytics/ctr-tracker"
 import "./globals.css"
 
-const inter = Inter({ 
+const poppins = Poppins({ 
   subsets: ["latin"],
+  weight: ['300', '400', '600'],
   display: 'swap',
   preload: true,
 })
@@ -150,7 +152,7 @@ export default function RootLayout({
     >
       <head />
       <body 
-        className={`${inter.className} min-h-screen flex flex-col`}
+        className={`${poppins.className} min-h-screen flex flex-col`}
         suppressHydrationWarning
       >
         <ThemeProvider
@@ -164,6 +166,7 @@ export default function RootLayout({
             <main id="main-content">{children}</main>
             <Footer />
           </div>
+          <MobileStickyCTA />
           <Toaster position="top-center" />
           <CTRTracker />
         </ThemeProvider>

@@ -58,7 +58,7 @@ export function EnhancedCTABanner({ theme = "light" }: EnhancedCTABannerProps) {
             </Button>
             <Button 
               size="sm" 
-              className="bg-green-600 hover:bg-green-700 px-5 group" 
+              className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 group" 
               asChild
             >
               <Link href="/offerte">

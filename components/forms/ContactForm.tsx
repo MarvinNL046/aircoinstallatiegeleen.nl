@@ -1,17 +1,35 @@
 "use client";
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Send } from 'lucide-react';
-import { sendEmail } from '@/lib/email-dual';
+import { sendEmail, trackFormSubmission, trackPixelFormSubmission } from '@/lib/email-dual';
+import { toast } from 'sonner';
 
-export default function ContactForm() {
+interface ContactFormProps {
+  title?: string;
+  subtitle?: string;
+  showCityField?: boolean;
+  redirectUrl?: string;
+  formType?: string;
+}
+
+export default function ContactForm({ 
+  title,
+  subtitle,
+  showCityField = false,
+  redirectUrl = "/bedankt",
+  formType = "contact_form"
+}: ContactFormProps = {}) {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
+    city: '',
     message: '',
   });
 
@@ -28,21 +46,62 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (status === 'sending') return;
+    
+    // Basic validation
+    if (!formData.name || !formData.email || !formData.message) {
+      toast.error('Vul alle verplichte velden in.');
+      return;
+    }
+    
     setStatus('sending');
 
     try {
-      await sendEmail(formData);
+      await sendEmail({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        city: showCityField ? formData.city : undefined,
+        message: formData.message
+      });
+      
       setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+      toast.success('Bedankt! We nemen binnen 24 uur contact met u op.');
+      
+      // Track success
+      trackFormSubmission(formType, true);
+      trackPixelFormSubmission(formType, true);
+      
+      // Reset form
+      setFormData({ name: '', email: '', phone: '', city: '', message: '' });
+      
+      // Redirect after delay
+      setTimeout(() => {
+        router.push(redirectUrl);
+      }, 1000);
+      
     } catch (error) {
-      console.error('Error:', error);
+      console.error('Form submission error:', error);
       setStatus('error');
+      toast.error('Er is iets misgegaan. Probeer het later opnieuw of neem telefonisch contact op.');
+      
+      // Track failure
+      trackFormSubmission(formType, false);
+      trackPixelFormSubmission(formType, false);
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="space-y-4">
+    <div>
+      {(title || subtitle) && (
+        <div className="mb-6">
+          {title && <h2 className="text-2xl font-bold text-gray-900 mb-2">{title}</h2>}
+          {subtitle && <p className="text-gray-600">{subtitle}</p>}
+        </div>
+      )}
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <div className="space-y-4">
         <div>
           <Input
             name="name"
@@ -75,6 +134,17 @@ export default function ContactForm() {
             className="w-full"
           />
         </div>
+        {showCityField && (
+          <div>
+            <Input
+              name="city"
+              placeholder="Uw woonplaats"
+              value={formData.city}
+              onChange={handleChange}
+              className="w-full"
+            />
+          </div>
+        )}
         <div>
           <Textarea
             name="message"
@@ -101,16 +171,7 @@ export default function ContactForm() {
         )}
       </Button>
 
-      {status === 'success' && (
-        <p className="text-green-600 text-center">
-          Uw bericht is succesvol verzonden. We nemen zo spoedig mogelijk contact met u op.
-        </p>
-      )}
-      {status === 'error' && (
-        <p className="text-red-600 text-center">
-          Er is iets misgegaan. Probeer het later opnieuw of neem telefonisch contact op.
-        </p>
-      )}
     </form>
+    </div>
   );
 }

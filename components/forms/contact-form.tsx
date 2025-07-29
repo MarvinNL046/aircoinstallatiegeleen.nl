@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
 import { Loader2 } from "lucide-react"
-import { sendEmail } from "@/lib/emailjs"
+import { sendEmail } from "@/lib/email-dual"
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)

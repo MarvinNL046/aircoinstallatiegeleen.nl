@@ -10,7 +10,9 @@ export function generateOrganizationSchema(): WithContext<Organization> {
     description: "Professionele airconditioning installatie in Geleen door StayCool Airco",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Geleen",
+      streetAddress: "Aan de Bogen 11",
+      addressLocality: "Nieuwstadt",
+      postalCode: "6118 AS",
       addressRegion: "Limburg",
       addressCountry: "NL",
     },
@@ -18,6 +20,15 @@ export function generateOrganizationSchema(): WithContext<Organization> {
       "@type": "ContactPoint",
       telephone: "+31-46-202-1430",
       contactType: "customer service",
+      areaServed: "NL",
+      availableLanguage: ["nl", "en"],
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.7",
+      bestRating: "5",
+      worstRating: "1", 
+      ratingCount: "163",
     },
     sameAs: [
       "https://staycoolairco.nl",

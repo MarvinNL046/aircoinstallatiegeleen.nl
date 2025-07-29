@@ -67,7 +67,7 @@ export function EnhancedCTASection() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-white mb-1">Hoogste klanttevredenheid</h3>
-                      <p className="text-sm text-blue-100">4.9/5 sterren op basis van 128+ beoordelingen</p>
+                      <p className="text-sm text-blue-100">4.7/5 sterren op basis van 163 beoordelingen</p>
                     </div>
                   </div>
                 </Card>
@@ -141,9 +141,9 @@ export function EnhancedCTASection() {
             {/* Right content - CTA form */}
             <div className="lg:col-span-5">
               <Card className="overflow-hidden shadow-xl border-0">
-                <div className="bg-green-600 p-4 text-white text-center">
+                <div className="bg-orange-500 p-4 text-white text-center">
                   <h3 className="text-lg font-bold">Vraag Nu Uw Offerte Aan</h3>
-                  <p className="text-sm text-green-100">Binnen 24 uur reactie gegarandeerd</p>
+                  <p className="text-sm text-orange-100">Binnen 24 uur reactie gegarandeerd</p>
                 </div>
                 
                 <div className="p-6">
@@ -162,13 +162,13 @@ export function EnhancedCTASection() {
                   </div>
                   
                   <div className="flex flex-col gap-5">
-                    <Button size="lg" className="bg-green-600 hover:bg-green-700 h-14 text-base relative overflow-hidden group" asChild>
+                    <Button size="lg" className="bg-orange-500 hover:bg-orange-600 h-14 text-base relative overflow-hidden group" asChild>
                       <Link href="/offerte">
                         <span className="relative z-10">
                           <Mail className="mr-2 h-5 w-5 inline-block" />
                           Gratis Offerte Aanvragen
                         </span>
-                        <span className="absolute bottom-0 left-0 h-1 w-full bg-green-500 transition-all duration-300 group-hover:h-full"></span>
+                        <span className="absolute bottom-0 left-0 h-1 w-full bg-orange-400 transition-all duration-300 group-hover:h-full"></span>
                       </Link>
                     </Button>
                     
@@ -189,7 +189,7 @@ export function EnhancedCTASection() {
                   
                   <div className="mt-6 text-center">
                     <p className="text-sm text-gray-600">
-                      Al <span className="font-semibold">128+</span> tevreden klanten in Geleen
+                      Al <span className="font-semibold">163</span> tevreden klanten in Geleen
                     </p>
                     
                     <div className="mt-4 flex flex-wrap justify-center gap-2">

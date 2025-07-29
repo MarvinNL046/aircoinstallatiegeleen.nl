@@ -4,25 +4,42 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222.2 84% 4.9%;
+    /* StayCool Design System Colors */
+    --orange-500: 24 95% 53%;
+    --orange-600: 21 91% 48%;
+    --orange-700: 17 88% 40%;
+    --blue-600: 221 83% 53%;
+    --blue-700: 221 90% 48%;
+    --blue-800: 226 71% 40%;
+    --blue-900: 226 71% 33%;
+    --gray-50: 210 20% 98%;
+    --gray-100: 220 14% 96%;
+    --gray-300: 216 12% 84%;
+    --gray-600: 215 19% 35%;
+    --gray-700: 215 25% 27%;
+    --gray-800: 217 33% 17%;
+    --gray-900: 221 39% 11%;
+    
+    /* Map to existing variables for compatibility */
+    --background: 0 0% 100%;
+    --foreground: 221 39% 11%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 221 39% 11%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 221 39% 11%;
+    --primary: 24 95% 53%; /* Orange-500 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 221 83% 53%; /* Blue-600 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 20% 98%; /* Gray-50 */
+    --muted-foreground: 215 19% 35%; /* Gray-600 */
+    --accent: 221 83% 53%; /* Blue-600 */
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 216 12% 84%; /* Gray-300 */
+    --input: 216 12% 84%; /* Gray-300 */
+    --ring: 24 95% 53%; /* Orange-500 */
     --radius: 0.5rem;
   }
  
