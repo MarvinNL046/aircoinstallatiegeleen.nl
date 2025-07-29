@@ -60,8 +60,8 @@ export function HeroOptimized() {
       {/* Background pattern */}
       <div className="absolute inset-0 bg-grid-white/[0.05] bg-grid-8" />
       
-      {/* Orange ribbon */}
-      <div className="absolute top-8 right-0 bg-orange-500 text-white px-6 py-2 transform rotate-12 translate-x-8 shadow-lg">
+      {/* Orange ribbon - positioned in mobile view */}
+      <div className="absolute top-4 right-4 sm:hidden bg-orange-500 text-white px-4 py-2 transform rotate-6 shadow-lg z-20">
         <p className="text-sm font-semibold">Binnen 24u reactie</p>
       </div>
 
@@ -142,6 +142,10 @@ export function HeroOptimized() {
 
           {/* Contact form */}
           <div className="relative">
+            {/* Orange ribbon for desktop - positioned over form */}
+            <div className="hidden sm:block absolute -top-4 -right-4 bg-orange-500 text-white px-6 py-2 transform rotate-12 shadow-lg z-20">
+              <p className="text-sm font-semibold">Binnen 24u reactie</p>
+            </div>
             <div className="bg-white rounded-2xl p-6 lg:p-8 shadow-2xl">
               <ContactForm 
                 title="Direct een gratis offerte?"
