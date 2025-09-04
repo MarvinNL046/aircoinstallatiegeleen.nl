@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Phone, MessageCircle, Star, Clock, Shield, CheckCircle } from "lucide-react"
+import { Phone, MessageCircle, Star, Clock, Shield, CheckCircle, Calendar } from "lucide-react"
 import ContactForm from "@/components/forms/ContactForm"
 
 const rotatingTexts = [
@@ -113,7 +113,7 @@ export function HeroOptimized() {
             </div>
 
             {/* CTA buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
               <Link href="tel:0462021430">
                 <Button 
                   size="lg" 
@@ -135,6 +135,19 @@ export function HeroOptimized() {
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp: 06 3648 1054
+                </Button>
+              </Link>
+              <Link 
+                href="https://afspraken.staycoolairco.nl" 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button 
+                  size="lg" 
+                  className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-6 text-lg shadow-lg transition-all hover:scale-105"
+                >
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Plan Direct Online Afspraak
                 </Button>
               </Link>
             </div>

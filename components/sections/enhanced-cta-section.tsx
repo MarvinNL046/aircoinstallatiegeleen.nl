@@ -185,6 +185,16 @@ export function EnhancedCTASection() {
                       </svg>
                       <span className="font-medium">WhatsApp Ons</span>
                     </Link>
+                    
+                    <Button size="lg" className="bg-green-600 hover:bg-green-700 h-14 text-base relative overflow-hidden group" asChild>
+                      <Link href="https://afspraken.staycoolairco.nl" target="_blank" rel="noopener noreferrer">
+                        <span className="relative z-10">
+                          <Calendar className="mr-2 h-5 w-5 inline-block" />
+                          Online Afspraak Maken
+                        </span>
+                        <span className="absolute bottom-0 left-0 h-1 w-full bg-green-500 transition-all duration-300 group-hover:h-full"></span>
+                      </Link>
+                    </Button>
                   </div>
                   
                   <div className="mt-6 text-center">
