@@ -37,10 +37,15 @@ export function ContactForm({ cityName }: ContactFormProps) {
         name: "",
         email: "",
         phone: "",
-        message: cityName 
+        message: cityName
           ? `Ik wil graag een offerte aanvragen voor een airco in ${cityName}.`
           : "",
       })
+
+      // Redirect to thank you page after short delay
+      setTimeout(() => {
+        window.location.href = 'https://staycoolairco.nl/tot-snel';
+      }, 1500)
     } catch (error) {
       toast.error("Er ging iets mis. Probeer het later opnieuw.")
     } finally {

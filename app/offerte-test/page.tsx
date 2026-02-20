@@ -10,7 +10,7 @@ export default function OfferteTestPage() {
               Test Uitgebreid Offerte Formulier
             </h1>
             <p className="text-lg text-gray-600">
-              Dit formulier bevat alle velden voor GoHighLevel integratie
+              Dit formulier bevat alle uitgebreide velden voor lead capture
             </p>
           </div>
           

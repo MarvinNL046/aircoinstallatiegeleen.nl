@@ -30,6 +30,11 @@ export function ContactForm() {
         phone: "",
         message: "",
       })
+
+      // Redirect to thank you page after short delay
+      setTimeout(() => {
+        window.location.href = 'https://staycoolairco.nl/tot-snel';
+      }, 1500)
     } catch (error) {
       toast.error("Er ging iets mis. Probeer het later opnieuw.")
     } finally {
